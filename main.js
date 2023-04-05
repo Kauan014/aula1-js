@@ -12,3 +12,10 @@ function exibenome()
     document.getElementById("mensagem").innerText = "meu nome :"+ usuario;
     document.getElementById("nome").value ="";
 }
+document.getElementById("btn-somar").addEventListener( "click",cal);
+
+function calc()
+{
+    let calculadora= document.getElementById("numb1").value;
+    document.getElementById("numb2").value;
+}
