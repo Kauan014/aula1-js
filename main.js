@@ -12,11 +12,11 @@ function exibenome()
     document.getElementById("mensagem").innerText = "meu nome :"+ usuario;
     document.getElementById("nome").value ="";
 }
-document.getElementById("btn-somar").addEventListener( "click",calc);
+document.getElementById("btn-soma").addEventListener( "click",calculo);
 
-function calc()
+function calculo()
 {
-    let numb1= document.getElementById("numb1").value;
-    let numb2=document.getElementById("numb2").value;
-    document.getElementById("resultado1").innerHTML= persefloat(numb1) + persefloat (numb2);
+    let numero1= document.getElementById("num1").value;
+    let numero2=document.getElementById("num2").value;
+    document.getElementById("resultado1").innerHTML= persefloat(numero1) + persefloat (numero2);
 }
