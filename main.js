@@ -18,5 +18,5 @@ function calc()
 {
     let calculadora= document.getElementById("numb1").value;
     document.getElementById("numb2").value;
-    document.getElementById("resultado1").innerText =numb1+numb2
+    document.getElementById("resultado1").innerText =numb1+numb2;
 }
