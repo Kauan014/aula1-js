@@ -36,7 +36,7 @@ function vezes()
     let num6 = document.getElementById("num6").value;
     document.getElementById("resultado3").innerHTML= parseFloat(num5) * parseFloat(num6);
 }
-document.getElementById("btn-vezes").addEventListener( "click",subtraçao);
+document.getElementById("btn-subtraçao").addEventListener( "click",subtraçao);
 
 function subtraçao()
 {
