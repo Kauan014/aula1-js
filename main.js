@@ -26,5 +26,5 @@ function dividir()
 {
     let num3 = document.getElementById("num3").value;
     let num4 = document.getElementById("num4").value;
-    document.getElementById("resultado2").innerHTML= parseFloat(num3) + parseFloat(num4);
+    document.getElementById("resultado2").innerHTML= parseFloat(num3) / parseFloat(num4);
 }
