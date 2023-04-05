@@ -17,7 +17,6 @@ document.getElementById("btn-somar").addEventListener( "click",cal);
 function calc()
 {
     let calculadora= document.getElementById("numb1").value;
-    document. getElementById("numb2").value;
-    document.getElementById("resultado1").innerHTML = "resultado :" + parseIn(numb1)
-    document.getElementById("resultado1").innerHTML = "resultado :" + parseIn(numb2s)
+    document.getElementById("numb2").value;
+    document.getElementById("resultado1").innerText = parseInt(numb1) + parseInt(numb2).
 }
