@@ -16,7 +16,7 @@ document.getElementById("btn-soma").addEventListener( "click",calculo);
 
 function calculo()
 {
-    let numero1= document.getElementById("num1").value;
-    let numero2=document.getElementById("num2").value;
-    document.getElementById("resultado1").innerHTML= persefloat(numero1) + persefloat (numero2);
+    let num1= document.getElementById("num1").value;
+    let num2=document.getElementById("num2").value;
+    document.getElementById("resultado1").innerHTML= persefloat(num1) + persefloat (num2);
 }
