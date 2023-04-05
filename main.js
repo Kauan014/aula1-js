@@ -18,5 +18,5 @@ function calc()
 {
     let numb1= document.getElementById("numb1").value;
     let numb2=document.getElementById("numb2").value;
-    document.getElementById("resultado1").innerHTML = parseInt(numb1) + parseInt(numb2).
+    document.getElementById("resultado1").innerHTML = parseInt(numb1) + parseInt(numb2);
 }
