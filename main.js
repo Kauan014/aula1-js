@@ -18,5 +18,5 @@ function calculo()
 {
     let num1 = document.getElementById("num1").value;
     let num2 = document.getElementById("num2").value;
-    document.getElementById("resultado1").innerHTML= perseFloat(num1) + perseFloat(num2);
+    document.getElementById("resultado1").innerHTML= parseFloat(num1) + parseFloat(num2);
 }
