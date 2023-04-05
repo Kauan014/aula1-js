@@ -28,3 +28,11 @@ function dividir()
     let num4 = document.getElementById("num4").value;
     document.getElementById("resultado2").innerHTML= parseFloat(num3) / parseFloat(num4);
 }
+document.getElementById("btn-vezes").addEventListener( "click",vezes);
+
+function vezes()
+{
+    let num5 = document.getElementById("num5").value;
+    let num6 = document.getElementById("num6").value;
+    document.getElementById("resultado3").innerHTML= parseFloat(num5) * parseFloat(num6);
+}
