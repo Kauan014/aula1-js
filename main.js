@@ -18,5 +18,5 @@ function calc()
 {
     let numb1= document.getElementById("num1").value;
     let numb2=document.getElementById("num2").value;
-    document.getElementById("resultado1").innerHTML= persefloat(num1) + persefloat (num2);
+    document.getElementById("resultado1").innerHTML= persefloat(numb1) + persefloat (numb2);
 }
