@@ -20,3 +20,11 @@ function calculo()
     let num2 = document.getElementById("num2").value;
     document.getElementById("resultado1").innerHTML= parseFloat(num1) + parseFloat(num2);
 }
+document.getElementById("btn-dividir").addEventListener( "click",dividir);
+
+function dividir()
+{
+    let num3 = document.getElementById("num3").value;
+    let num4 = document.getElementById("num4").value;
+    document.getElementById("resultado1").innerHTML= parseFloat(num3) + parseFloat(nu4);
+}
